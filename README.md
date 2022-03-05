@@ -1687,8 +1687,8 @@ function DiscordLib:Window(text)
 		ServerIco.AnchorPoint = Vector2.new(0.5, 0.5)
 		ServerIco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		ServerIco.BackgroundTransparency = 1.000
-		ServerIco.Position = UDim2.new(0.489361703, 0, 0.489361703, 0)
-		ServerIco.Size = UDim2.new(0, 26, 0, 26)
+		ServerIco.Position = UDim2.new(0.489361703, 0, 0.519361703, 0)
+		ServerIco.Size = UDim2.new(0, 47, 0, 47)
 		ServerIco.Image = ""
 
 		ServerWhiteFrame.Name = "ServerWhiteFrame"
