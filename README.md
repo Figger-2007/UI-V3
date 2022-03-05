@@ -1672,11 +1672,11 @@ function DiscordLib:Window(text)
 		Server.BackgroundColor3 = Color3.fromRGB(255,255,255)--47, 49, 54)
 		Server.Position = UDim2.new(0.125, 0, 0, 0)
 		Server.Size = UDim2.new(0, 47, 0, 47)
-		Server.AutoButtonColor = false
-		Server.Font = Enum.Font.Gotham
-		Server.Text = ""
-		Server.TextColor3 = Color3.fromRGB(255, 255, 255)
-		Server.TextSize = 18.000
+		--Server.AutoButtonColor = false
+		--Server.Font = Enum.Font.Gotham
+		--Server.Text = ""
+		--Server.TextColor3 = Color3.fromRGB(255, 255, 255)
+		--Server.TextSize = 18.000
 
 		ServerBtnCorner.CornerRadius = UDim.new(1, 0)
 		ServerBtnCorner.Name = "ServerCorner"
