@@ -1669,7 +1669,7 @@ function DiscordLib:Window(text)
 
 		Server.Name = text .. "Server"
 		Server.Parent = ServersHold
-		Server.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		Server.BackgroundColor3 = Color3.fromRGB(255,255,255)--47, 49, 54)
 		Server.Position = UDim2.new(0.125, 0, 0, 0)
 		Server.Size = UDim2.new(0, 47, 0, 47)
 		Server.AutoButtonColor = false
@@ -1684,11 +1684,11 @@ function DiscordLib:Window(text)
 
 		ServerIco.Name = "ServerIco"
 		ServerIco.Parent = Server
-		ServerIco.AnchorPoint = Vector2.new(0.5, 0.5)
+		ServerIco.AnchorPoint = Vector2.new(0.485, 0.52)
 		ServerIco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		ServerIco.BackgroundTransparency = 1.000
 		ServerIco.Position = UDim2.new(0.48, 0, 0.48, 0)
-		ServerIco.Size = UDim2.new(0, 47, 0, 47)
+		ServerIco.Size = UDim2.new(0, 46, 0, 46)
 		ServerIco.Image = ""
 
 		ServerWhiteFrame.Name = "ServerWhiteFrame"
