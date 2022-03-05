@@ -1677,7 +1677,6 @@ function DiscordLib:Window(text)
 		Server.Text = ""
 		Server.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Server.TextSize = 18.000
-		Server.BackgroundTransparency = 1
 
 		ServerBtnCorner.CornerRadius = UDim.new(1, 0)
 		ServerBtnCorner.Name = "ServerCorner"
