@@ -2313,7 +2313,7 @@ function DiscordLib:Window(text)
 							TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 							{ImageTransparency = 0}
 						):Play()
-						toggled == true
+						toggled = true
 						pcall(callback, toggled)
 				end
 				
