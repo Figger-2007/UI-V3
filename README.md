@@ -1667,7 +1667,7 @@ function DiscordLib:Window(text)
 		local ServerWhiteFrame = Instance.new("Frame")
 		local ServerWhiteFrameCorner = Instance.new("UICorner")
 
-		Server.Name = text .. "Server"
+		Server.Name = "Server" --text .. "Server"
 		Server.Parent = ServersHold
 		Server.BackgroundColor3 = Color3.fromRGB(255,255,255)--47, 49, 54)
 		Server.Position = UDim2.new(0.125, 0, 0, 0)
